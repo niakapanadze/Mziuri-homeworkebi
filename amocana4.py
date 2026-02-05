@@ -1,0 +1,6 @@
+f = open("amoc4.txt", "r", encoding = "utf-8")
+k = f.read()
+f.close()
+f2 = open("amoc4(2).txt", "w", encoding = "utf-8")
+f2.write(k)
+f2.close()
